@@ -35,7 +35,7 @@ For detailed instructions with screenshots, see the [Pawtograder Student Guide](
 
     💡 Already have a GitHub account? Use your existing account! This keeps all your coursework visible on your profile if you choose to make repositories public later.
 
-    🔄 Already have Pawtograder linked to GitHub from CS 2100 or CS3100? You'll still need to complete the steps above to enroll in the CS4300 GitHub organization in Pawtograder (skipping step 2).
+    🔄 Already have Pawtograder linked to GitHub from CS 2100 or CS3100? You'll still need to complete the steps above to enroll in the CS4530 GitHub organization in Pawtograder (skipping step 2).
 
     ⚠️ Course not showing up? Enrollments sync automatically every hour. If you just registered, wait an hour and try again. If it still doesn't appear, contact your instructor.
 
@@ -232,7 +232,7 @@ The first and most glaring is that some of the functions, despite claiming to re
 
  4. **Challenge**: there's another definite bug in the user service that's a little more difficult to find, but that could potentially represent a security issue. Identify the bug and include a cURL command that demonstrates it, explain why the cURL command demonstrates something bad happening, create a failing test, and fix the bug. (This is just worth 5% of the overall score for this assignment. Don't get stuck here and neglect the other tasks!)
 
-This task is worth 20 points: 6 points for sub-parts 1-3 and 2 point for subpart 4.
+This task is worth 20 points: 6 points for each sub-parts 1-3 and 2 points for subpart 4.
 
 ### Task 4: Creating an Auth model
 
