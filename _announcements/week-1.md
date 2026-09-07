@@ -8,5 +8,5 @@ On behalf of the entire [instructional team](https://neu-se.github.io/CS4530-Fal
 
 In advance of the first week of class, we’ve shared the [calendar for each section](https://neu-se.github.io/CS4530-Fall-2026/calendar/), the first week's lectures (with related activities), and tutorials on installing your IDE, Typescript, Unit testing with Vitest, and API Requests. Please take a moment to review those. In addition, the first individual project deliverable will be posted at the start of the semester and it will be due in two weeks. 
 
-We are looking forward to meeting you in few weeks!
+We are looking forward to meeting you next week!
 {: .fs-5 }
