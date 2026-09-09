@@ -198,6 +198,8 @@ Places to look for guidance:
 
  A reference implementation is available at <https://summer-26-gamenite.onrender.com/>, you'll need to create an account (or two) to use this reference implementation.
 
+Until the game is implemented, given tests will fail. You are required to get all those tests to pass. You are free to add new tests but you cannot change the existing tests.
+
 This task is worth 25 points: 
  - 15 points will be assigned automatically based on passing our test suite
  - 10 points will be assigned by TAs manually checking for issues with [code style]({{ site.baseurl }}{% link style.md %}). Take care to document any helper functions you include.
