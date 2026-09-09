@@ -8,5 +8,5 @@ The first [individual project deliverable](https://neu-se.github.io/CS4530-Fall-
 
 If you already created your repo on pawtograder before start of the semester, be sure to sync your repo by accepting a Pull Request. Feel free to use piazza to ask questions and use office hours if you need help. 
 
-The schedule of office hours is now posted on the staff page. We will start holding office hours from Thursday Sep 10th. We have 64 hours of scheduled TA office hours per week.
+The schedule of office hours will be posted on the staff page shortly. We will start holding office hours from Thursday Sep 10th. We have 64 hours of scheduled TA office hours per week.
 {: .fs-5 }
