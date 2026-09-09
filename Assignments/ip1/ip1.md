@@ -87,7 +87,7 @@ HTTP GET requests are supposed to just look up information. It is considered bad
 
 #### HTTP POST Requests
 
-A HTTP POST request, on the other hand, sends information to a server and receives information in return; it may change things about the state of the world. You can make POST requests with a tool like [Postman]({{site.baseurl}}{% link tutorials/week1-api-requests-postman.md %}) or from the command line with a tool like cURL. If you run this cURL command while the server is running, it will make a new post that you can see if you go to the website’s frontend.
+A HTTP POST request, on the other hand, sends information to a server and receives information in return; it may change things about the state of the world. You can make POST requests from the command line with a tool like [cURL]({{site.baseurl}}{% link tutorials/week1-api-requests.md %}). If you run this cURL command while the server is running, it will make a new post that you can see if you go to the website’s frontend.
 
 ```
 curl --location 'localhost:8000/api/thread/create' \
@@ -105,8 +105,6 @@ curl --location 'localhost:8000/api/thread/create' \
 ```
 
 Line 36 of `server/src/app.ts` causes this request to be sent to the `postCreate` controller, which is also just a function defined in `server/src/controllers/thread.controller.ts`.
-
-You may find that it’s easier to make HTTP POST requests from a tool like [Postman]({{site.baseurl}}{% link tutorials/week1-api-requests-postman.md %}) instead of writing `curl` commands directly. If you click the `</>` icon in Postman while developing a request, you can pick “cURL” from the dropdown menu and get a command-line snippet that performs the same request.
 
 #### Other HTTP Requests
 
