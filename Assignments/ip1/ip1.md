@@ -155,9 +155,9 @@ You can test the server by going to the `server` directory and running `npm run 
 
 You will submit your code by pushing the final version into your repository (add/commit/push). In this assignment, you should only be making, committing, and pushing changes to the `main` branch of your repository. Be sure to check if the correct version is submitted before the deadline.
 
-On Canvas, you will submit a .pdf file containing written responses and cURL commands requested in Task 3. Your code is already submitted to your project's GitHub repo on pawtograder.
+You will submit written responses and cURL commands requested in Task 3 in responses.md file provided in your repo. Your code is already submitted to your project's GitHub repo on pawtograder.
 
-We will grade your code on Pawtograder and grades will be synced to the Canvas Gradebook.
+We will review your submission from Pawtograder and grades/feedback will be provided on Canvas.
 
 ### TypeScript ESLint, Vitest, and Configuration Files
 
@@ -181,6 +181,10 @@ The Actions tab on GitHub has the results of previous runs.
 
 ![image]({{site.baseurl}}{% link /Assignments/ip1/ActionsTab.png %})
 
+If your action run fails to complete successfully, your code is not submitted. 
+
+After your submission, you will be able to check feedback from Autograder using "Test Assignment" -> "Click on commit". It will show you feedback on your submission.
+
 **Up to 25% of your total grade on the assignment may be deducted for CI failures (5% for prettier failures, 10% for TypeScript failures, and 10% for ESLint failures). In severe cases we may decline to grade your assignment entirely. Give yourself sufficient time to find and fix any errors.** ESLint _warnings_ do not cause CI to fail and will not automatically lead to a deduction, but it is bad practice to have lots of console statements in your code, and this can lead to a point deduction if it makes it hard for a TA to understand your code.
 
 ## 4. Implementation Tasks
@@ -198,7 +202,7 @@ Places to look for guidance:
 
  A reference implementation is available at <https://summer-26-gamenite.onrender.com/>, you'll need to create an account (or two) to use this reference implementation.
 
-Until the game is implemented, given tests will fail. You are required to get all those tests to pass. You are free to add new tests but you cannot change the existing tests.
+**Until the game is implemented, given tests will fail. You are required to get all those tests to pass. You are free to add new tests but you cannot change the existing tests.**
 
 This task is worth 25 points: 
  - 15 points will be assigned automatically based on passing our test suite
@@ -218,7 +222,7 @@ This task is worth 20 points:
  - 6 points for achieving full branch coverage for `ticTacToe.ts` (3 points for 90%+ branch coverage)
  - 4 points for your tests working against some of our custom "mutants" — your tests should not be overspecified (they should pass valid implementations of `ticTacToe.ts` that may be slightly different than the provided one), and they should correctly catch and fail implementations of Tic-Tac-Toe that have bugs.
 
-Watch out on Piazza — we will release mutant Tic-Tac-Toe implementations that you can use to test your tests locally. Your tests should pass valid implementations and catch the buggy ones.
+Your tests should pass valid implementations and catch the buggy ones.
 
 ### Task 3: Exposing Errors in the User Service
 
