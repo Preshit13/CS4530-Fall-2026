@@ -1,3 +1,9 @@
+---
+layout: page
+title: Learning Basics of Git
+permalink: /assignments/ip1/learning-github/
+---
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
