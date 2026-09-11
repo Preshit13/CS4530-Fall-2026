@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Learning Basics of Git
+parent: Tutorials
 permalink: /assignments/ip1/learning-github/
+nav_order: 1.5
 ---
 
 # :wave: The Basics of GitHub 
